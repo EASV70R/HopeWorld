@@ -9,5 +9,9 @@ Author: 😳
 }
 
 .custom-bg-light {
-    background-color: rgb(233, 233, 233)!important;
+    background-color: #f4faf7!important;
+}
+
+.nav-link {
+    color: black!important;
 }

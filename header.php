@@ -12,7 +12,7 @@
 
     <div class="container">
           <a class="navbar-brand" href="#">
-          <img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo.svg" alt="" width="70" height="70">
+          <img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo.svg" alt="" width="70" height="50">
           </a>
 
           <button class="navbar-toggler" 
