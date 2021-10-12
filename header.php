@@ -11,7 +11,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark custom-bg-light">
 
     <div class="container">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="">
           <img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo.svg" alt="" width="70" height="50">
           </a>
 
@@ -43,3 +43,13 @@
             <?php get_search_form(); ?>
         </div>
     </nav>
+    <div class="header-image" style="background-image: url(<?php echo get_template_directory_uri(); ?>/images/bg.jpg);">
+      <div class="container">
+        <h1>
+         <?php bloginfo("name"); ?>
+        </h1>
+        <p>
+          <?php bloginfo("description"); ?>
+        </p>
+      </div>
+    </div>
