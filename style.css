@@ -19,25 +19,25 @@ Author: 😳
 
 /* Header */
 
-.header {
+.header-img {
     height: 900px;
     text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.header img {
+.header-img img {
     float: left;
     width: 100px;
     height: 100px;
 }
 
-.header .container {
+.header-img .container {
     position: relative;
     top: 200px;
 }
 
-.header h1 {
+.header-img h1 {
     font-size: 80px;
     line-height: 100px;
     margin-top: 0;
@@ -58,12 +58,12 @@ Author: 😳
 }*/
 
 @media (min-width:850px) {
-    .header h1 {
+    .header-img h1 {
         font-size: 120px;
     }
 }
 
-.header p {
+.header-img p {
     font-weight: 500;
     margin-bottom: 40px;
     margin-top: 0;
@@ -76,11 +76,11 @@ Author: 😳
 /* Media Queries */
 
 @media (max-width: 500px) {
-    .header {
+    .header-img {
         height: 600px;
         background-size: auto;
     }
-    .header h1 {
+    .header-img h1 {
         font-size: 50px;
         line-height: 64px;
     }
