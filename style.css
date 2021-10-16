@@ -46,7 +46,8 @@ Author: 😳
     text-transform: uppercase;
 }
 
-.header-image:before {
+
+/*.header-image:before {
     content: "";
     background: rgba(0, 0, 0, 0.4);
     position: absolute;
@@ -54,7 +55,7 @@ Author: 😳
     top: 0;
     left: 0;
     right: 0;
-}
+}*/
 
 @media (min-width:850px) {
     .header h1 {
@@ -64,10 +65,10 @@ Author: 😳
 
 .header p {
     font-weight: 500;
-    letter-spacing: 8px;
     margin-bottom: 40px;
     margin-top: 0;
     color: black;
+    font-weight: bold;
     text-transform: uppercase;
 }
 

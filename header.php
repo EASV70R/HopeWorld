@@ -43,7 +43,7 @@
             <?php get_search_form(); ?>
         </div>
     </nav>
-    <div class="header-image" style="background-image: url(<?php echo get_template_directory_uri(); ?>/images/bg.jpg);">
+    <div class="header" style="background-image: url(<?php echo get_template_directory_uri(); ?>/images/bg.jpg);">
       <div class="container">
         <h1>
          <?php bloginfo("name"); ?>
